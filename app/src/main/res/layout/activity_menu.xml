@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context="com.example.android.weekendproject2.Menu">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Normal Dialog"
+        android:onClick="showDefaultdialog"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Dialog"
+        android:onClick="showCustomdialog"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reader"
+        android:onClick="goToReader"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS"
+        android:onClick="goToSMS"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:onClick="notification"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Counter"
+        android:onClick="counters"/>
+
+
+    <FrameLayout
+        android:id="@+id/flFirstFragment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/SecondFragment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></FrameLayout>
+
+
+
+
+</LinearLayout>

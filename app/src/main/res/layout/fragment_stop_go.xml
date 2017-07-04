@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/Blue"
+    tools:context="com.example.android.weekendproject2.Stop_go">
+
+    <!-- TODO: Update blank fragment layout -->
+   <Button
+       android:layout_gravity="center"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Start"
+       android:onClick="startCount"
+       android:id="@+id/StartContinue"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/StopReset"
+        android:text="Stop"
+        android:onClick="stopTime"/>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Reset"
+        android:text="Reset"
+        android:onClick="reset"/>
+
+</LinearLayout>
